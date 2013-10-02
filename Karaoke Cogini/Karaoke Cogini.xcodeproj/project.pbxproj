@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3789CC717F55ED000678F96 /* SongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3789CC517F55ED000678F96 /* SongViewController.m */; };
+		F3789CC817F55ED000678F96 /* SongViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3789CC617F55ED000678F96 /* SongViewController.xib */; };
+		F3789CCC17F57F0A00678F96 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3789CCB17F57F0A00678F96 /* Parse.framework */; };
+		F3789CCD17F5830900678F96 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3855ADB17F5589B00C577F2 /* AudioToolbox.framework */; };
+		F3789CCE17F5831000678F96 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3855AD917F5589300C577F2 /* CFNetwork.framework */; };
+		F3789CCF17F5831700678F96 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F51E8C17F52B6B00B63F48 /* CoreGraphics.framework */; };
+		F3789CD017F5831E00678F96 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3855AD517F5588400C577F2 /* CoreLocation.framework */; };
+		F3789CD117F5832500678F96 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3855AD717F5588B00C577F2 /* libz.1.1.3.dylib */; };
+		F3789CD317F5832E00678F96 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3789CD217F5832E00678F96 /* MobileCoreServices.framework */; };
+		F3789CD417F5833400678F96 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3855AD317F5587B00C577F2 /* QuartzCore.framework */; };
+		F3789CD517F5833B00678F96 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3855AD117F5587300C577F2 /* Security.framework */; };
+		F3789CD617F5834100678F96 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3855ACF17F5586A00C577F2 /* StoreKit.framework */; };
+		F3789CD717F5834800678F96 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3855ACD17F5585F00C577F2 /* SystemConfiguration.framework */; };
+		F3789CDA17F5842E00678F96 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3789CD917F5842E00678F96 /* TabViewController.m */; };
+		F3DFB19F17F5868C0009037E /* LikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DFB19D17F5868C0009037E /* LikeViewController.m */; };
+		F3DFB1A017F5868C0009037E /* LikeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3DFB19E17F5868C0009037E /* LikeViewController.xib */; };
+		F3F51E8917F52B6B00B63F48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F51E8817F52B6B00B63F48 /* UIKit.framework */; };
+		F3F51E8B17F52B6B00B63F48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F51E8A17F52B6B00B63F48 /* Foundation.framework */; };
+		F3F51E9317F52B6B00B63F48 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3F51E9117F52B6B00B63F48 /* InfoPlist.strings */; };
+		F3F51E9517F52B6B00B63F48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F51E9417F52B6B00B63F48 /* main.m */; };
+		F3F51E9917F52B6B00B63F48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F51E9817F52B6B00B63F48 /* AppDelegate.m */; };
+		F3F51E9B17F52B6B00B63F48 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F3F51E9A17F52B6B00B63F48 /* Default.png */; };
+		F3F51E9D17F52B6B00B63F48 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3F51E9C17F52B6B00B63F48 /* Default@2x.png */; };
+		F3F51E9F17F52B6B00B63F48 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3F51E9E17F52B6B00B63F48 /* Default-568h@2x.png */; };
+		F3F51EB217F5356B00B63F48 /* vol41.txt in Resources */ = {isa = PBXBuildFile; fileRef = F3F51EB117F5356B00B63F48 /* vol41.txt */; };
+		F3F51EB617F5399600B63F48 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F51EB517F5399600B63F48 /* Song.m */; };
+		F3F51EBA17F5425300B63F48 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F51EB917F5425300B63F48 /* Utils.m */; };
+		F3F51EBE17F5448500B63F48 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F51EBC17F5448500B63F48 /* MainViewController.m */; };
+		F3F51EBF17F5448500B63F48 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3F51EBD17F5448500B63F48 /* MainViewController.xib */; };
+		F3F51EC217F5470D00B63F48 /* MainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F51EC117F5470C00B63F48 /* MainCell.m */; };
+		F3F51EC417F5471E00B63F48 /* MainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3F51EC317F5471E00B63F48 /* MainCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F3789CC417F55ED000678F96 /* SongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongViewController.h; sourceTree = "<group>"; };
+		F3789CC517F55ED000678F96 /* SongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongViewController.m; sourceTree = "<group>"; };
+		F3789CC617F55ED000678F96 /* SongViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SongViewController.xib; sourceTree = "<group>"; };
+		F3789CCB17F57F0A00678F96 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		F3789CD217F5832E00678F96 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F3789CD817F5842E00678F96 /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		F3789CD917F5842E00678F96 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		F3855ACD17F5585F00C577F2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F3855ACF17F5586A00C577F2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F3855AD117F5587300C577F2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F3855AD317F5587B00C577F2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F3855AD517F5588400C577F2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F3855AD717F5588B00C577F2 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		F3855AD917F5589300C577F2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F3855ADB17F5589B00C577F2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F3855ADD17F558B600C577F2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F3DFB19C17F5868C0009037E /* LikeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LikeViewController.h; sourceTree = "<group>"; };
+		F3DFB19D17F5868C0009037E /* LikeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LikeViewController.m; sourceTree = "<group>"; };
+		F3DFB19E17F5868C0009037E /* LikeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LikeViewController.xib; sourceTree = "<group>"; };
+		F3F51E8517F52B6B00B63F48 /* Karaoke Cogini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Karaoke Cogini.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F51E8817F52B6B00B63F48 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F3F51E8A17F52B6B00B63F48 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F3F51E8C17F52B6B00B63F48 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F3F51E9017F52B6B00B63F48 /* Karaoke Cogini-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Karaoke Cogini-Info.plist"; sourceTree = "<group>"; };
+		F3F51E9217F52B6B00B63F48 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3F51E9417F52B6B00B63F48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3F51E9617F52B6B00B63F48 /* Karaoke Cogini-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Karaoke Cogini-Prefix.pch"; sourceTree = "<group>"; };
+		F3F51E9717F52B6B00B63F48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3F51E9817F52B6B00B63F48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3F51E9A17F52B6B00B63F48 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F3F51E9C17F52B6B00B63F48 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F3F51E9E17F52B6B00B63F48 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F3F51EB117F5356B00B63F48 /* vol41.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vol41.txt; sourceTree = "<group>"; };
+		F3F51EB417F5399600B63F48 /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		F3F51EB517F5399600B63F48 /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+		F3F51EB817F5425300B63F48 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		F3F51EB917F5425300B63F48 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		F3F51EBB17F5448500B63F48 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F3F51EBC17F5448500B63F48 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F3F51EBD17F5448500B63F48 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		F3F51EC017F5470C00B63F48 /* MainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCell.h; sourceTree = "<group>"; };
+		F3F51EC117F5470C00B63F48 /* MainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCell.m; sourceTree = "<group>"; };
+		F3F51EC317F5471E00B63F48 /* MainCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3F51E8217F52B6B00B63F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3789CD717F5834800678F96 /* SystemConfiguration.framework in Frameworks */,
+				F3789CD617F5834100678F96 /* StoreKit.framework in Frameworks */,
+				F3789CD517F5833B00678F96 /* Security.framework in Frameworks */,
+				F3789CD417F5833400678F96 /* QuartzCore.framework in Frameworks */,
+				F3789CD317F5832E00678F96 /* MobileCoreServices.framework in Frameworks */,
+				F3789CD117F5832500678F96 /* libz.1.1.3.dylib in Frameworks */,
+				F3789CD017F5831E00678F96 /* CoreLocation.framework in Frameworks */,
+				F3789CCF17F5831700678F96 /* CoreGraphics.framework in Frameworks */,
+				F3789CCE17F5831000678F96 /* CFNetwork.framework in Frameworks */,
+				F3789CCD17F5830900678F96 /* AudioToolbox.framework in Frameworks */,
+				F3F51E8B17F52B6B00B63F48 /* Foundation.framework in Frameworks */,
+				F3F51E8917F52B6B00B63F48 /* UIKit.framework in Frameworks */,
+				F3789CCC17F57F0A00678F96 /* Parse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3F51E7C17F52B6B00B63F48 = {
+			isa = PBXGroup;
+			children = (
+				F3F51E8E17F52B6B00B63F48 /* Karaoke Cogini */,
+				F3F51E8717F52B6B00B63F48 /* Frameworks */,
+				F3F51E8617F52B6B00B63F48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3F51E8617F52B6B00B63F48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3F51E8517F52B6B00B63F48 /* Karaoke Cogini.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3F51E8717F52B6B00B63F48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3789CD217F5832E00678F96 /* MobileCoreServices.framework */,
+				F3789CCB17F57F0A00678F96 /* Parse.framework */,
+				F3855ADD17F558B600C577F2 /* SenTestingKit.framework */,
+				F3855ADB17F5589B00C577F2 /* AudioToolbox.framework */,
+				F3855AD917F5589300C577F2 /* CFNetwork.framework */,
+				F3855AD717F5588B00C577F2 /* libz.1.1.3.dylib */,
+				F3855AD517F5588400C577F2 /* CoreLocation.framework */,
+				F3855AD317F5587B00C577F2 /* QuartzCore.framework */,
+				F3855AD117F5587300C577F2 /* Security.framework */,
+				F3855ACF17F5586A00C577F2 /* StoreKit.framework */,
+				F3855ACD17F5585F00C577F2 /* SystemConfiguration.framework */,
+				F3F51E8817F52B6B00B63F48 /* UIKit.framework */,
+				F3F51E8A17F52B6B00B63F48 /* Foundation.framework */,
+				F3F51E8C17F52B6B00B63F48 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3F51E8E17F52B6B00B63F48 /* Karaoke Cogini */ = {
+			isa = PBXGroup;
+			children = (
+				F3F51EB717F5424500B63F48 /* Utils */,
+				F3F51EB317F5398300B63F48 /* Model */,
+				F3F51EAE17F5311F00B63F48 /* Resources */,
+				F3F51E9717F52B6B00B63F48 /* AppDelegate.h */,
+				F3F51E9817F52B6B00B63F48 /* AppDelegate.m */,
+				F3F51E8F17F52B6B00B63F48 /* Supporting Files */,
+				F3F51EBB17F5448500B63F48 /* MainViewController.h */,
+				F3F51EBC17F5448500B63F48 /* MainViewController.m */,
+				F3F51EBD17F5448500B63F48 /* MainViewController.xib */,
+				F3F51EC017F5470C00B63F48 /* MainCell.h */,
+				F3F51EC117F5470C00B63F48 /* MainCell.m */,
+				F3F51EC317F5471E00B63F48 /* MainCell.xib */,
+				F3789CC417F55ED000678F96 /* SongViewController.h */,
+				F3789CC517F55ED000678F96 /* SongViewController.m */,
+				F3789CC617F55ED000678F96 /* SongViewController.xib */,
+				F3789CD817F5842E00678F96 /* TabViewController.h */,
+				F3789CD917F5842E00678F96 /* TabViewController.m */,
+				F3DFB19C17F5868C0009037E /* LikeViewController.h */,
+				F3DFB19D17F5868C0009037E /* LikeViewController.m */,
+				F3DFB19E17F5868C0009037E /* LikeViewController.xib */,
+			);
+			path = "Karaoke Cogini";
+			sourceTree = "<group>";
+		};
+		F3F51E8F17F52B6B00B63F48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3F51E9017F52B6B00B63F48 /* Karaoke Cogini-Info.plist */,
+				F3F51E9117F52B6B00B63F48 /* InfoPlist.strings */,
+				F3F51E9417F52B6B00B63F48 /* main.m */,
+				F3F51E9617F52B6B00B63F48 /* Karaoke Cogini-Prefix.pch */,
+				F3F51E9A17F52B6B00B63F48 /* Default.png */,
+				F3F51E9C17F52B6B00B63F48 /* Default@2x.png */,
+				F3F51E9E17F52B6B00B63F48 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3F51EAE17F5311F00B63F48 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F3F51EB117F5356B00B63F48 /* vol41.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F3F51EB317F5398300B63F48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3F51EB417F5399600B63F48 /* Song.h */,
+				F3F51EB517F5399600B63F48 /* Song.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F3F51EB717F5424500B63F48 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F3F51EB817F5425300B63F48 /* Utils.h */,
+				F3F51EB917F5425300B63F48 /* Utils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3F51E8417F52B6B00B63F48 /* Karaoke Cogini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F51EAB17F52B6B00B63F48 /* Build configuration list for PBXNativeTarget "Karaoke Cogini" */;
+			buildPhases = (
+				F3F51E8117F52B6B00B63F48 /* Sources */,
+				F3F51E8217F52B6B00B63F48 /* Frameworks */,
+				F3F51E8317F52B6B00B63F48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Karaoke Cogini";
+			productName = "Karaoke Cogini";
+			productReference = F3F51E8517F52B6B00B63F48 /* Karaoke Cogini.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3F51E7D17F52B6B00B63F48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Bach Vu";
+			};
+			buildConfigurationList = F3F51E8017F52B6B00B63F48 /* Build configuration list for PBXProject "Karaoke Cogini" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F3F51E7C17F52B6B00B63F48;
+			productRefGroup = F3F51E8617F52B6B00B63F48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3F51E8417F52B6B00B63F48 /* Karaoke Cogini */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3F51E8317F52B6B00B63F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F51E9317F52B6B00B63F48 /* InfoPlist.strings in Resources */,
+				F3F51E9B17F52B6B00B63F48 /* Default.png in Resources */,
+				F3F51E9D17F52B6B00B63F48 /* Default@2x.png in Resources */,
+				F3F51E9F17F52B6B00B63F48 /* Default-568h@2x.png in Resources */,
+				F3F51EB217F5356B00B63F48 /* vol41.txt in Resources */,
+				F3F51EBF17F5448500B63F48 /* MainViewController.xib in Resources */,
+				F3F51EC417F5471E00B63F48 /* MainCell.xib in Resources */,
+				F3789CC817F55ED000678F96 /* SongViewController.xib in Resources */,
+				F3DFB1A017F5868C0009037E /* LikeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3F51E8117F52B6B00B63F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F51E9517F52B6B00B63F48 /* main.m in Sources */,
+				F3F51E9917F52B6B00B63F48 /* AppDelegate.m in Sources */,
+				F3F51EB617F5399600B63F48 /* Song.m in Sources */,
+				F3F51EBA17F5425300B63F48 /* Utils.m in Sources */,
+				F3F51EBE17F5448500B63F48 /* MainViewController.m in Sources */,
+				F3F51EC217F5470D00B63F48 /* MainCell.m in Sources */,
+				F3789CC717F55ED000678F96 /* SongViewController.m in Sources */,
+				F3789CDA17F5842E00678F96 /* TabViewController.m in Sources */,
+				F3DFB19F17F5868C0009037E /* LikeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3F51E9117F52B6B00B63F48 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3F51E9217F52B6B00B63F48 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3F51EA917F52B6B00B63F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3F51EAA17F52B6B00B63F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3F51EAC17F52B6B00B63F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Karaoke Cogini/Karaoke Cogini-Prefix.pch";
+				INFOPLIST_FILE = "Karaoke Cogini/Karaoke Cogini-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F3F51EAD17F52B6B00B63F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Karaoke Cogini/Karaoke Cogini-Prefix.pch";
+				INFOPLIST_FILE = "Karaoke Cogini/Karaoke Cogini-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3F51E8017F52B6B00B63F48 /* Build configuration list for PBXProject "Karaoke Cogini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F51EA917F52B6B00B63F48 /* Debug */,
+				F3F51EAA17F52B6B00B63F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F51EAB17F52B6B00B63F48 /* Build configuration list for PBXNativeTarget "Karaoke Cogini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F51EAC17F52B6B00B63F48 /* Debug */,
+				F3F51EAD17F52B6B00B63F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3F51E7D17F52B6B00B63F48 /* Project object */;
+}
